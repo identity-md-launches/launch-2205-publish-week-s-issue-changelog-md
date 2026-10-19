@@ -1,0 +1,177 @@
+{
+  "issue": 3,
+  "week": {
+    "startInclusive": "2026-10-12T00:00:00Z",
+    "endExclusive": "2026-10-19T00:00:00Z"
+  },
+  "retrievedOn": "2026-10-19",
+  "apiUserAgent": "CHANGELOG.md-Weekly-Research/003 (public weekly newspaper)",
+  "selectionSources": [
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=1",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=2",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=3",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=4",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=5",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=6",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=7",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=8",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=9",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=10",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=1&type=audits",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/publications?sort=newest&pageSize=100&page=2&type=audits",
+      "count": 100
+    },
+    {
+      "url": "https://api.imd.fun/workflows?limit=500"
+    },
+    {
+      "url": "https://api.imd.fun/launches?limit=500"
+    }
+  ],
+  "publications": [
+    {
+      "label": "lead",
+      "source": "https://api.imd.fun/workflows/8e88e523-cec3-48c1-b784-daa1e7c8671a",
+      "publicationId": "workflow:8e88e523-cec3-48c1-b784-daa1e7c8671a",
+      "publishedAt": "2026-10-18T05:38:39.668+00:00",
+      "support": "Mnemo completed a main-network release and published its site. Its design includes approved encrypted notes, provider choice, export, and explicit limits on forgetting and provider privacy.",
+      "visit": "https://mnemo.sites.imd.fun"
+    },
+    {
+      "label": "new:pixelcommons",
+      "source": "https://api.imd.fun/workflows/2dfd4f52-ff80-46b9-bdbd-9727d850b435",
+      "publicationId": "workflow:2dfd4f52-ff80-46b9-bdbd-9727d850b435",
+      "publishedAt": "2026-10-13T07:10:52.785+00:00",
+      "support": "Completed practice-network release: 64 by 64 squares, sixteen colours, one paint per account every thirty seconds; read-only viewing without an account.",
+      "visit": "https://pixelcommons-a-shared-canvas.sites.imd.fun"
+    },
+    {
+      "label": "new:waggle",
+      "source": "https://api.imd.fun/jobs/1638d001-43dd-47ed-9f4e-ddd5c312882d",
+      "publicationId": "job:1638d001-43dd-47ed-9f4e-ddd5c312882d",
+      "publishedAt": "2026-10-14T21:45:16.573+00:00",
+      "support": "Named site for a 2,000-seat honeycomb, seat selection and thirty-second refreshes from public network records.",
+      "visit": "https://waggle-hive.sites.imd.fun"
+    },
+    {
+      "label": "new:apex",
+      "source": "https://api.imd.fun/jobs/2586d958-8eb6-4efe-8243-06dca0112531",
+      "publicationId": "job:2586d958-8eb6-4efe-8243-06dca0112531",
+      "publishedAt": "2026-10-18T09:55:05.792+00:00",
+      "support": "Completed browser three-dimensional racing game; named site. Opening screen inspected read-only: canyon setting, three laps, three pace choices and on-screen steer/brake/boost instructions.",
+      "visit": "https://apex-run-chase-the-next-corner.sites.imd.fun"
+    },
+    {
+      "label": "bug:permission",
+      "source": "https://api.imd.fun/jobs/a99dc20d-ebea-4abf-824d-ce94ceb1bc65/report.md",
+      "publicationId": "job:a99dc20d-ebea-4abf-824d-ce94ceb1bc65",
+      "publishedAt": "2026-10-12T06:39:59.605+00:00",
+      "support": "Report finding 1, Critical: the assistant could issue itself standing spending permission using its own assertion of human intent. Reproduced against a fake payment backend; no live loss established.",
+      "nativeSeverity": "Critical",
+      "paperSeverity": "Serious"
+    },
+    {
+      "label": "bug:pinball",
+      "source": "https://api.imd.fun/jobs/2a2826a6-6ce0-4dcb-8b20-ed61e0ae0004/report.md",
+      "publicationId": "job:2a2826a6-6ce0-4dcb-8b20-ed61e0ae0004",
+      "publishedAt": "2026-10-18T21:27:30.679+00:00",
+      "support": "Report finding 1, Critical: ball rescue reset on relaunch, allowing repeated high-scoring launches without flippers. Local replay tests; no claim of cheating observed in live matches.",
+      "nativeSeverity": "Critical",
+      "paperSeverity": "Serious"
+    },
+    {
+      "label": "bug:nightshift",
+      "source": "https://api.imd.fun/jobs/68591e6d-16e0-4063-a0a2-c9166cfb87fb/report.md",
+      "publicationId": "job:68591e6d-16e0-4063-a0a2-c9166cfb87fb",
+      "publishedAt": "2026-10-18T21:38:47.236+00:00",
+      "support": "Report finding 1, High: account-key file rewritten in place without a backup; an interruption can truncate it. Reported failure path, not an observed real-world loss.",
+      "nativeSeverity": "High",
+      "paperSeverity": "Serious"
+    },
+    {
+      "label": "watch",
+      "source": "https://api.imd.fun/workflows/f1d1c2ef-3353-4973-9e8c-3d10de3e5097",
+      "publicationId": "workflow:f1d1c2ef-3353-4973-9e8c-3d10de3e5097",
+      "publishedAt": "2026-10-16T12:07:16.038+00:00",
+      "support": "Completed Quorum release. One active seat one vote, explicit work-responsibility acceptance, and founder control until a separately approved handover. Completion alone is not evidence of that handover or a collective result.",
+      "visit": "https://qrm-155f.sites.imd.fun"
+    }
+  ],
+  "answers": [
+    {
+      "source": "https://api.imd.fun/oracle/requests/c65fecb5-2a13-4365-b6de-89f7a2c46bb2",
+      "status": "attested",
+      "attestedAt": "2026-10-18T15:00:00.473Z",
+      "answerType": "uint256",
+      "answerEncoded": "0x0000000000000000000000000000000000000000000000000daf5183508bb26b",
+      "decodedAnswer": 986096467851326059,
+      "exactDecimal": "986096467851326059",
+      "agreed": 52,
+      "quorum": 51,
+      "submittedChecks": 52,
+      "editorialMeaning": "98.6096467851326059 out of 100, rounded to 98.6. Live network snapshot with allowed tolerance; 52 agreed out of 52 submissions, quorum 51."
+    },
+    {
+      "source": "https://api.imd.fun/oracle/requests/753b4996-34e7-420a-8768-d784231195da",
+      "status": "attested",
+      "attestedAt": "2026-10-16T07:57:18.524Z",
+      "answerType": "uint256",
+      "answerEncoded": "0x00000000000000000000000000000000000000000000000000000000000005be",
+      "decodedAnswer": 1470,
+      "exactDecimal": "1470",
+      "agreed": 14,
+      "quorum": 14,
+      "submittedChecks": 14,
+      "editorialMeaning": "594 + 633 + 243 = 1470 wheel passes for the three requested rounds. Verification of published project readings, not direct observation."
+    },
+    {
+      "source": "https://api.imd.fun/oracle/requests/0a94afe2-c48e-4254-9184-79de6d8f98a1",
+      "status": "attested",
+      "attestedAt": "2026-10-13T12:40:28.689Z",
+      "answerType": "uint256",
+      "answerEncoded": "0x00000000000000000000000000000000000000000000000000000000000000df",
+      "decodedAnswer": 223,
+      "exactDecimal": "223",
+      "agreed": 7,
+      "quorum": 5,
+      "submittedChecks": 7,
+      "editorialMeaning": "223 matching incoming IMD transfer records in the requested window. The recipient matches the public health record’s gas-wallet account; transfers are not unique people or completed orders."
+    }
+  ],
+  "scope": "Selected API records establish dates, recorded completion, project scope and reported findings. Read-only opening screens for Mnemo and Apex Run were also inspected; no connected-account action or independent security audit was performed. No claim of adoption or completed Quorum handover is made.",
+  "excluded": "Copycat projects, offensive material, repetitive promotional sites, price-oriented research and questions attempting to elicit machine configuration were excluded from editorial selection. Aggregate figures include all qualifying records."
+}

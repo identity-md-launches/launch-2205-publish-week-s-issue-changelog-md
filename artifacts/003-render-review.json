@@ -1,0 +1,182 @@
+{
+  "browser": "156.0.8078.4",
+  "scope": "Final issue 003 at the production export /preview/; measurements complement visual inspection, not a screen-reader session.",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "title": "CHANGELOG.md · No. 003 · 12–18 October",
+      "overflow": false,
+      "firstScreen": {
+        ".masthead h1": {
+          "top": 108.375,
+          "bottom": 156.984375,
+          "visible": true
+        },
+        ".edition-tabs": {
+          "top": 284.9375,
+          "bottom": 340.9375,
+          "visible": true
+        },
+        ".source-switch": {
+          "top": 342.9375,
+          "bottom": 386.9375,
+          "visible": true
+        },
+        "#lead-headline": {
+          "top": 449.734375,
+          "bottom": 584.453125,
+          "visible": true
+        }
+      },
+      "leadWordFragments": 146,
+      "crossParagraphWordCollisions": [],
+      "fonts": [
+        "Libre Franklin",
+        "Newsreader",
+        "UnifrakturMaguntia"
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 1100,
+      "title": "CHANGELOG.md · No. 003 · 12–18 October",
+      "overflow": false,
+      "firstScreen": {
+        ".masthead h1": {
+          "top": 73,
+          "bottom": 184.265625,
+          "visible": true
+        },
+        ".edition-tabs": {
+          "top": 280.4375,
+          "bottom": 336.4375,
+          "visible": true
+        },
+        ".source-switch": {
+          "top": 286.4375,
+          "bottom": 330.4375,
+          "visible": true
+        },
+        "#lead-headline": {
+          "top": 416.234375,
+          "bottom": 609.03125,
+          "visible": true
+        }
+      },
+      "leadWordFragments": 146,
+      "crossParagraphWordCollisions": [],
+      "fonts": [
+        "Libre Franklin",
+        "Newsreader",
+        "UnifrakturMaguntia"
+      ]
+    },
+    {
+      "width": 320,
+      "height": 800,
+      "title": "CHANGELOG.md · No. 003 · 12–18 October",
+      "overflow": false,
+      "firstScreen": {
+        ".masthead h1": {
+          "top": 108.375,
+          "bottom": 148.265625,
+          "visible": true
+        },
+        ".edition-tabs": {
+          "top": 276.21875,
+          "bottom": 332.21875,
+          "visible": true
+        },
+        ".source-switch": {
+          "top": 334.21875,
+          "bottom": 378.21875,
+          "visible": true
+        },
+        "#lead-headline": {
+          "top": 456.015625,
+          "bottom": 590.734375,
+          "visible": true
+        }
+      },
+      "leadWordFragments": 146,
+      "crossParagraphWordCollisions": [],
+      "fonts": [
+        "Libre Franklin",
+        "Newsreader",
+        "UnifrakturMaguntia"
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "title": "CHANGELOG.md · No. 003 · 12–18 October",
+      "overflow": false,
+      "firstScreen": {
+        ".masthead h1": {
+          "top": 92.984375,
+          "bottom": 191.578125,
+          "visible": true
+        },
+        ".edition-tabs": {
+          "top": 287.75,
+          "bottom": 343.75,
+          "visible": true
+        },
+        ".source-switch": {
+          "top": 293.75,
+          "bottom": 337.75,
+          "visible": true
+        },
+        "#lead-headline": {
+          "top": 415.546875,
+          "bottom": 510.453125,
+          "visible": true
+        }
+      },
+      "leadWordFragments": 146,
+      "crossParagraphWordCollisions": [],
+      "fonts": [
+        "Libre Franklin",
+        "Newsreader",
+        "UnifrakturMaguntia"
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "title": "CHANGELOG.md · No. 003 · 12–18 October",
+      "overflow": false,
+      "firstScreen": {
+        ".masthead h1": {
+          "top": 73,
+          "bottom": 179.140625,
+          "visible": true
+        },
+        ".edition-tabs": {
+          "top": 275.3125,
+          "bottom": 331.3125,
+          "visible": true
+        },
+        ".source-switch": {
+          "top": 281.3125,
+          "bottom": 325.3125,
+          "visible": true
+        },
+        "#lead-headline": {
+          "top": 411.109375,
+          "bottom": 589.046875,
+          "visible": true
+        }
+      },
+      "leadWordFragments": 146,
+      "crossParagraphWordCollisions": [],
+      "fonts": [
+        "Libre Franklin",
+        "Newsreader",
+        "UnifrakturMaguntia"
+      ]
+    }
+  ],
+  "archive": "All three real issue deep links, source links and first disclosure exercised at 390px."
+}

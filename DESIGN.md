@@ -77,7 +77,7 @@ All patterns below are implemented in `src/App.tsx`, with matching class names i
 | `Explainer` / `SwarmDrawing` | Three numbered steps; original decorative SVG included inline, with no image request or alternative-text noise. |
 | Severity tags | Exactly Serious or Moderate. Red/ink outline and the written label distinguish severity. The prose explains user consequences, not implementation terms. |
 | Numbers and notes | Semantic definition list; CSS puts the figure above its label visually. Snapshot caveat stays visible. Native How we counted disclosure holds definitions and meter arithmetic. Sources appear only when requested. |
-| Leaders | Ordered top-three list, seat numbers only, tabular contribution totals and a visible lifetime/snapshot explanation. |
+| Leaders | Ordered top-three list, seat numbers only, tabular contribution totals and a visible weekly or all-time explanation selected by `leadersScope`; missing scope means all-time. |
 | Meter | Ruled bar and red needle positioned by `--level`; `role="meter"` exposes min/max, numeric value and verdict. Static Snoozing/Steady/Frantic labels and visible `50 = the same` explanation. |
 | Watch | Double-boxed, shaded editorial callout with Visit and a supplementary source from the edition note. |
 
@@ -92,15 +92,18 @@ Focus outlines are two pixels with four-pixel offset, including on inline glossa
 - Preserve the archive’s immutable issue files. Adding a normal edition changes data, index/feed and export; it should not redesign the application.
 - A future additional paper view should begin with `.newspaper` and the existing `Paper` patterns, use the same semantic color tokens and test 320px reflow, enlarged text and keyboard focus before release.
 
-The six-domain review and remaining verification limits are in `artifacts/validation.md`. Attribution to the pinned design/documentation guidance is in `artifacts/THIRD-PARTY-NOTICES.md`.
+The current six-domain review, rendered evidence and limitations are in [`docs/validation-003.md`](docs/validation-003.md). Attribution to Jakub Krehel’s Better Interface (MIT) and Paul Bakaus’s Impeccable documentation method (Apache-2.0), with both license texts, is retained in [`docs/design-guidance-licenses.txt`](docs/design-guidance-licenses.txt).
 
-## Issue 002 additions (12 October 2026)
+## Publication and archive behavior
 
-The design, tokens, type scale and components above are unchanged. Three content-level changes were made in `src/App.tsx`:
+The page is a reading product: the masthead identifies it, and the edition tabs and Show sources switch are the primary controls. The latest issue is selected initially. All three issues are embedded in the production HTML at build time; subsequent edition selection does not fetch data.
 
-- **Date line** (`.date-line`): shows the issue's publication date as a `<time>` element and "Covering <week> · UTC". Dates are publication dates; issue 001 now shows Saturday 10 October 2026.
-- **Seats heading** (`#leaders-title`): "Hardest-working seats this week" when the issue's `leadersScope` is `this week`, otherwise "Hardest-working seats of all time" (issues without the field are all-time totals). The small notes beneath it switch with the scope.
-- **Online figure** (`.numbers-grid`): labelled "Workers online", with "Workers" wired to the tap-to-explain glossary; the footnote reads "Workers online is a snapshot…".
+The `.date-line` shows a publication-date `<time>` and “Covering <week> · UTC”. The `#leaders-title` heading says “Hardest-working seats this week” for `leadersScope: "this week"`, and “Hardest-working seats of all time” otherwise. Issues without a scope retain all-time semantics. The online figure is labelled “Workers online”, with a visible snapshot footnote. These behaviors were already present and are preserved for issue 003.
 
-`index.html` gained Open Graph and Twitter card metadata and a local 1200×630 share image (`public/og-image.png`, paper colour `#f2ead8`, ink `#1c1814`, rendered with the serif fallback). Nothing else in the page, stylesheet or layout rules changed; the two issue tabs follow the existing horizontal-scroll behaviour at 320–390 px.
+The archive now has three tabs, newest first, with only No. 003 tagged Latest. The original horizontal tab scrolling and keyboard scrolling remain. The root metadata includes the title, description, SVG favicon, Open Graph title and local 1200×630 share image. The image’s relative URL supports an export whose eventual hosting address is not part of the build.
 
+## Scope of the issue 003 review
+
+No application code, CSS, component, palette, font, size, spacing, breakpoint, metadata or build configuration changed. New editorial data uses the existing components. The pinned design probe’s stricter house preferences for six type sizes, three weights, sentence-case labels, no kickers and limited first-screen prose conflict with the instruction to keep the existing newspaper design exactly. The incumbent design has more sizes and four weights, tracked uppercase print labels and editorial kickers; those are documented exceptions, not new styling changes or a claim that every probe check passes.
+
+The final validation note distinguishes rendered checks from source review. Native screen-reader use, native browser zoom and physical devices remain unverified. A WebKit launch was attempted, but this host lacks its required shared libraries, so Safari behavior is not claimed. The source’s forced-colors and print rules remain documented without treating their presence as a rendered test.

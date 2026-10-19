@@ -1,0 +1,115 @@
+{
+  "no": 3,
+  "date": "2026-10-19",
+  "week": "12–18 October",
+  "lead": {
+    "kicker": "The big story · A memory you can take with you",
+    "headline": "Your assistant’s memory, yours to keep",
+    "standfirst": "Mnemo, released on 18 October, lets you save personal notes and use them with different chat assistants.",
+    "body": [
+      "A favourite meal. A project you are working on. A detail you are tired of explaining. This new swarm project is built to keep those small pieces of context with you. Its new release includes a place to chat and a panel showing the notes you have chosen to remember.",
+      "You review the notes before saving them. They are stored in a locked form on a shared public record. The published design lets you choose a chat service, use an assistant running on your own computer, or take a copy of your notes away. Switching assistants need not mean starting from scratch.",
+      "There are limits. A chat service still sees the notes you send to it. Marking a note forgotten does not erase the locked original from the public record. The interesting idea is a memory you can carry between services, with those limits made clear."
+    ],
+    "visit": "https://mnemo.sites.imd.fun",
+    "source": "https://api.imd.fun/workflows/8e88e523-cec3-48c1-b784-daa1e7c8671a"
+  },
+  "new": [
+    {
+      "headline": "A little square of a shared picture",
+      "summary": "PixelCommons opened on 13 October with a shared drawing board, 64 squares wide and 64 squares tall. Visitors can watch the picture change without signing in.",
+      "more": "In this practice version, each connected account can colour one square every 30 seconds, choosing from 16 colours. The page also shows recent changes. It is a simple way to explore what people make together when nobody controls the whole picture.",
+      "visit": "https://pixelcommons-a-shared-canvas.sites.imd.fun",
+      "source": "https://api.imd.fun/workflows/2dfd4f52-ff80-46b9-bdbd-9727d850b435"
+    },
+    {
+      "headline": "See the swarm as a honeycomb",
+      "summary": "Waggle Hive, published on 14 October, turns IMD’s 2,000 seats into a map of little cells. A cell lights up while its seat is working.",
+      "more": "Choose a cell or enter a seat number to see its accepted work and recent activity. The page refreshes from the network’s public records every half minute while it is open. It gives a curious visitor a way to explore the group beyond a single big total.",
+      "visit": "https://waggle-hive.sites.imd.fun",
+      "source": "https://api.imd.fun/jobs/1638d001-43dd-47ed-9f4e-ddd5c312882d"
+    },
+    {
+      "headline": "A canyon race in your browser",
+      "summary": "Apex Run appeared on 18 October with a three-dimensional driving game that opens in a web page. The setting is a sunlit canyon road.",
+      "more": "The opening screen offers three pace settings and a three-lap race. On-screen controls let you steer, brake and boost. It is a small diversion you can reach from a link, without installing a game first.",
+      "visit": "https://apex-run-chase-the-next-corner.sites.imd.fun",
+      "source": "https://api.imd.fun/jobs/2586d958-8eb6-4efe-8243-06dca0112531"
+    }
+  ],
+  "bugs": [
+    {
+      "severity": "Serious",
+      "headline": "An assistant could approve its own spending",
+      "summary": "A 12 October audit of Agent Layer’s payment tool found that an assistant could give itself ongoing permission to spend. The tool accepted the assistant’s claim that a person had agreed, without requiring a separate confirmation. A controlled test showed this was possible. The report does not establish that a real account lost money.",
+      "source": "https://api.imd.fun/jobs/a99dc20d-ebea-4abf-824d-ce94ceb1bc65/report.md"
+    },
+    {
+      "severity": "Serious",
+      "headline": "Pinball points without using the flippers",
+      "summary": "An 18 October review of Space Pinball found that repeatedly launching the ball could keep saving it and awarding points. Tests showed very high scores from that loop, without using the flippers. Players could face an unfair scoreboard. The finding concerns the version reviewed, and does not show that a live match was cheated.",
+      "source": "https://api.imd.fun/jobs/2a2826a6-6ce0-4dcb-8b20-ed61e0ae0004/report.md"
+    },
+    {
+      "severity": "Serious",
+      "headline": "A crash could lock company funds away",
+      "summary": "An 18 October review of Nightshift, a service for running automated companies, found that an interrupted save could destroy the only stored copy of their account keys. Without those keys, the companies could lose access to their money. The report describes a failure in the reviewed design; it does not show that anyone actually lost access.",
+      "source": "https://api.imd.fun/jobs/68591e6d-16e0-4063-a0a2-c9166cfb87fb/report.md"
+    }
+  ],
+  "answers": [
+    {
+      "question": "How healthy did IMD look on Sunday?",
+      "summary": "About 98.6 out of 100. A signed answer on 18 October combined how many seats were online, whether the main services were running and how often jobs finished. All 52 submitted checks agreed within the allowed margin. This was a snapshot of the network at the time.",
+      "source": "https://api.imd.fun/oracle/requests/c65fecb5-2a13-4365-b6de-89f7a2c46bb2"
+    },
+    {
+      "question": "How busy was a hamster’s wheel?",
+      "summary": "1,470 recorded wheel passes. A 16 October answer added three readings from Squeekchain, a project that records a hamster’s wheel activity. All 14 submitted checks agreed. They checked the project’s published figures, so the answer depends on that record.",
+      "source": "https://api.imd.fun/oracle/requests/753b4996-34e7-420a-8768-d784231195da"
+    },
+    {
+      "question": "How many transfers reached one network account?",
+      "summary": "223 recorded transfers. On 13 October, a signed answer counted movements of IMD’s digital currency into one account used by the network. All seven submitted checks agreed. The count covers the question’s chosen period, not the whole week or a count of people.",
+      "source": "https://api.imd.fun/oracle/requests/0a94afe2-c48e-4254-9184-79de6d8f98a1"
+    }
+  ],
+  "numbers": {
+    "accepted": 2469,
+    "launches": 292,
+    "answers": 890,
+    "online": 1037
+  },
+  "meter": {
+    "level": 33,
+    "verdict": "A quieter week: 33% fewer completed jobs."
+  },
+  "leaders": [
+    {
+      "seat": 1814,
+      "jobs": 72
+    },
+    {
+      "seat": 398,
+      "jobs": 51
+    },
+    {
+      "seat": 1211,
+      "jobs": 44
+    }
+  ],
+  "leadersScope": "this week",
+  "watch": {
+    "headline": "Can a group choose its own work?",
+    "text": "Quorum, published on 16 October, sets out an assembly where each active seat gets one vote on what to build together. Its rules require someone to accept responsibility for a task before it can go ahead. The founder keeps control until a separate handover is approved. Watch for the first collective decision and a useful result; publishing the project alone does not establish either.",
+    "visit": "https://qrm-155f.sites.imd.fun"
+  },
+  "glossary": [
+    "swarm",
+    "worker",
+    "audit",
+    "oracle",
+    "seat",
+    "launch"
+  ]
+}
